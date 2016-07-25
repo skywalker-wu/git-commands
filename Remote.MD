@@ -24,5 +24,14 @@ $ git remote rm origin
 $ git remote rename <old> <new>
 ```
 
+###Push to remote site
+```
+$ git push <site name> <local branch>:[remote branch = master]
+$ git push git-commands master
+```
+
+###Get update from remote site
+    git pull <site name> <local branch>
+
 ####Reference
 [http://blog.csdn.net/pgmsoul/article/details/7883706](http://blog.csdn.net/pgmsoul/article/details/7883706)
